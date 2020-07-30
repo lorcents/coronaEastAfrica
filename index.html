@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    
+	<link rel="stylesheet" type="text/css" href="bootstrap.css">
+</head>
+<body onload="keFunction()" >
+    <h1>Corona Updates in East Africa</h1>
+    
+<hr>
+
+  <form >
+    <label for="Countries" ><h4>Choose country you wanna see updates</h4> </label>
+    <select name="countries">
+      <option id="ke" onclick="keFunction()" value="kenya" >Kenya</option>
+      <option id="ug"  onclick="ugFunction()" value="uganda">Uganda</option>
+      <option id="tz" onclick="tzFunction()" value="tanzania">Tanzania</option>
+     
+    </select>
+   
+    
+  </form>
+  <h1 id="country"></h1>
+    <hr>
+   Total Cases <h2 id="cases" style="color: rgb(83, 83, 238);"></h2>
+   Total Recovery <h2 id="recovery" style="color: rgb(43, 189, 43);"></h2>
+   Total Deaths <h2 id="deaths" style="color: rgb(207, 13, 13);"></h2>
+
+ 
+ 
+   
+   <script src="app.js"></script>
+   
+</body>
+</html>
