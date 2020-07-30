@@ -16,12 +16,12 @@
   <form >
     <label for="Countries" ><h4>Choose country you wanna see updates</h4> </label>
     <select name="countries">
-      <option id="ke" onselect="keFunction()" value="kenya" >Kenya</option>
-      <option id="ug"  onselect="ugFunction()" value="uganda">Uganda</option>
-      <option id="tz" onselect="tzFunction()" value="tanzania">Tanzania</option>
+      <option id="ke" onsubmit="keFunction()" value="kenya" >Kenya</option>
+      <option id="ug"  onsubmit="ugFunction()" value="uganda">Uganda</option>
+      <option id="tz" onsubmit="tzFunction()" value="tanzania">Tanzania</option>
      
     </select>
-   
+   <input type="submit" value="search">
     
   </form>
   <h1 id="country"></h1>
